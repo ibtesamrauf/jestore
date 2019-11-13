@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'DashboardController@index')->name('home');
+
+Route::get('/forgot_password', 'HomeController@forgot_password')->name('forgot_password');
+Route::get('/blank_page', 'HomeController@blank_page')->name('blank_page');
+Route::get('/chart', 'HomeController@chart')->name('chart');
+Route::get('/table', 'HomeController@table')->name('table');

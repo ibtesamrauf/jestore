@@ -78,27 +78,28 @@
 				<h6 class="collapse-header">Login Screens:</h6>
 				<a class="collapse-item" href="login.html">Login</a>
 				<a class="collapse-item" href="register.html">Register</a>
-				<a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+				<a class="collapse-item" href="{{ route('forgot_password') }}">Forgot Password</a>
 				<div class="collapse-divider"></div>
 				<h6 class="collapse-header">Other Pages:</h6>
-				<a class="collapse-item" href="404.html">404 Page</a>
-				<a class="collapse-item" href="blank.html">Blank Page</a>
+				<a class="collapse-item" href="{{ url('4asd04') }}">404 Page</a>
+				<a class="collapse-item" href="{{ route('blank_page') }}">Blank Page</a>
 			</div>
 		</div>
 	</li>
 
 	<!-- Nav Item - Charts -->
 	<li class="nav-item">
-		<a class="nav-link" href="charts.html">
+		<a class="nav-link" href="{{ route('chart') }}">
 			<i class="fas fa-fw fa-chart-area"></i>
 			<span>Charts</span></a>
 	</li>
 
 	<!-- Nav Item - Tables -->
 	<li class="nav-item">
-		<a class="nav-link" href="tables.html">
+		<a class="nav-link" href="{{ route('table') }}">
 			<i class="fas fa-fw fa-table"></i>
-			<span>Tables</span></a>
+			<span>Tables</span>
+		</a>
 	</li>
 
 	<!-- Divider -->

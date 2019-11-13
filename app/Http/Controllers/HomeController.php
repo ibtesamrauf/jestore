@@ -25,4 +25,24 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function forgot_password()
+    {
+        return view('forgot_password');
+    }
+
+    public function blank_page()
+    {
+        return view('blank_page');
+    }
+
+    public function chart()
+    {
+        return view('chart');
+    }
+
+    public function table()
+    {
+        return view('table');
+    }
 }
